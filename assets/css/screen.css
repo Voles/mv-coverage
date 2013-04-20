@@ -1,0 +1,98 @@
+@charset
+"UTF-8"
+;
+/* CSS Document */
+
+/* --- YUI Reset CSS --- */
+td, th, blockquote, p, textarea, input, fieldset, form, pre, h6, h5, h4, h3, h2, h1, li, ol, ul, dd, dt, dl, div, body {
+	margin: 0;
+	padding: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+img, fieldset, acronym, abbr {
+	border: 0
+}
+
+var, th, strong, em, dfn, code, cite, caption, address {
+	font-style: normal
+}
+
+var, th, strong, em, dfn, code, cite, caption, address, h6, h5, h4, h3, h2, h1 {
+	font-weight: normal
+}
+
+ul, ol {
+	list-style: none
+}
+
+th, caption {
+	text-align: left
+}
+
+h6, h5, h4, h3, h2, h1 {
+	font-size: 100%
+}
+
+q:after, q:before {
+	content: ''
+}
+
+/*---------------------*/
+/*   GENERAL ELEMENTS  */
+/*---------------------*/
+
+h1 {
+	font-size: 2em;
+	color: #00a4f0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: "Century Gothic", Arial, sans-serif;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.45em;
+	margin-bottom: 120px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #545454;
+}
+
+a {
+	font-size: 1em;
+	line-height: 1.45em;
+	margin-bottom: 120px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+/*---------------------*/
+/*   GENERAL CLASSES   */
+/*---------------------*/
+
+.thanks {
+	margin-top: 50px;
+}
+
+/*---------------------*/
+/* CONTAINING ELEMENTS */
+/*---------------------*/
+
+#container {
+	width: 950px;
+	margin: 120px auto;
+}
+
+/*------------------------*/
+/* PAGE SPECIFIC ELEMENTS */
+/*------------------------*/
+
+/* --- Home --- */
+#compare {
+	width: 921px;
+	margin: 0 auto;
+}
